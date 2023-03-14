@@ -1,11 +1,23 @@
-import './App.css';
+import React, { Component } from 'react';
+import './styles/App.css';
 
-function App() {
-  return (
-    <div>
-      Hello World!
-    </div>
-  );
+class App extends Component {
+  constructor(){
+    super();
+  }
+
+  render(){
+    return(
+      <div className='app'>
+        <div className='title'>
+          Title and score go here
+        </div>
+        <div className='content'>
+          Cards go here
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
