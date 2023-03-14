@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
+import Title from './components/Title.js';
 
 class App extends Component {
   constructor(){
@@ -9,9 +10,7 @@ class App extends Component {
   render(){
     return(
       <div className='app'>
-        <div className='title'>
-          Title and score go here
-        </div>
+        <Title/>
         <div className='content'>
           Cards go here
         </div>
