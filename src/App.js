@@ -12,7 +12,6 @@ class App extends Component {
       <div className='app'>
         <Title/>
         <div className='content'>
-          Cards go here
         </div>
       </div>
     );
