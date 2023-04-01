@@ -9,8 +9,9 @@
 .content {
     width: 90%;
     height: 80%;
-    padding-left: 5%;
+    padding-left: 7.5%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    row-gap: 5%;
 }

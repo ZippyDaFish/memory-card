@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: yellowgreen;
+    border-radius: 5%;
+
+    width: 60%;
+    padding: 5%;
+}
+
+img {
+    border-radius: 5%;
+    width: 90%;
+}
