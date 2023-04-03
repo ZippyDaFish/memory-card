@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/Card.css'
 
-const Card = () => {
+const Card = (props) => {
     return(
         <div className='card'>
-            <img src={require('../images/Izuku_Midoriya_Portrait.png')}></img>
-            <h2>Izuku Midoriya</h2>
+            <img src={props.image}></img>
+            <h2>{props.name}</h2>
         </div>
     );
 };
