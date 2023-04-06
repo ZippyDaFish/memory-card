@@ -10,7 +10,7 @@ const Title = (props) => {
             </div>
             <div>
                 <h3>Score: {props.score}</h3>
-                <h3>High Score: {props.highScore}</h3>
+                <h3>High Score: {props.best}</h3>
             </div>
         </div>
     );

@@ -56,7 +56,7 @@ class App extends Component {
     var currentScore = this.state.clickedCardIds.length;
     var newBest = this.state.best;
 
-    if(currentScore > this.state.best){
+    if(currentScore >= this.state.best){
       newBest = currentScore;
     }
 
@@ -69,7 +69,6 @@ class App extends Component {
   resetScore = () => {
     this.setState({
       score: 0,
-      best: 0,
       clickedCardIds: []
     });
   }
