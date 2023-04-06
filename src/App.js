@@ -32,6 +32,7 @@ class App extends Component {
   handleCardClick = (e) => {
     e.preventDefault();
     console.log(e.target.id);
+    console.log(e);
   };
 
   render(){
