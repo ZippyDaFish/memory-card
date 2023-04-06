@@ -29,7 +29,9 @@ class App extends Component {
     super();
 
     this.state = {
-      clickedCardIds: []
+      clickedCardIds: [],
+      score: 0,
+      best: 0
     };
   }
 
@@ -39,17 +41,43 @@ class App extends Component {
   };
 
   checkCardId = (id) => {
+    if(this.state.clickedCardIds.includes(id)){
+      this.resetScore();
+      return;
+    }
+
     var joinedIds = this.state.clickedCardIds.concat(id);
     this.setState({
       clickedCardIds: joinedIds
-    })
-    console.log(this.state.clickedCardIds);
+    }, function(){this.updateScore()})
   };
+
+  updateScore = () => {
+    var currentScore = this.state.clickedCardIds.length;
+    var newBest = this.state.best;
+
+    if(currentScore > this.state.best){
+      newBest = currentScore;
+    }
+
+    this.setState({
+      score: currentScore,
+      best: newBest
+    });
+  }
+
+  resetScore = () => {
+    this.setState({
+      score: 0,
+      best: 0,
+      clickedCardIds: []
+    });
+  }
 
   render(){
     return(
       <div className='app'>
-        <Title/>
+        <Title score={this.state.score} best={this.state.best}/>
         <div className='content'>
           <Card id={1} image={Denki} name={'Denki Kaminari'} functionTrigger={this.handleCardClick}/>
           <Card id={2} image={Eijirou} name={'Eijirou Kirishima'} functionTrigger={this.handleCardClick}/>
