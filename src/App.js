@@ -30,7 +30,8 @@ class App extends Component {
   }
 
   handleCardClick = (e) => {
-    console.log(e.id);
+    e.preventDefault();
+    console.log(e.target.id);
   };
 
   render(){
@@ -38,8 +39,8 @@ class App extends Component {
       <div className='app'>
         <Title/>
         <div className='content'>
-          <Card id="1" image={Denki} name={'Denki Kaminari'} onClick={this.handleCardClick}/>
-          <Card id="2" image={Eijirou} name={'Eijirou Kirishima'}/>
+          <Card id={1} image={Denki} name={'Denki Kaminari'} functionTrigger={this.handleCardClick}/>
+          <Card id={2} image={Eijirou} name={'Eijirou Kirishima'} functionTrigger={this.handleCardClick}/>
           <Card id="3" image={Fumikage} name={'Fumikage Tokoyami'}/>
           <Card id="4" image={Hanta} name={'Hanta Sero'}/>
           <Card id="5" image={Izuku} name={'Izuku Midoriya'}/>
