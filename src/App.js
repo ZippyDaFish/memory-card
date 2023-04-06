@@ -29,31 +29,35 @@ class App extends Component {
     super();
   }
 
+  handleCardClick = (e) => {
+    console.log(e.id);
+  };
+
   render(){
     return(
       <div className='app'>
         <Title/>
         <div className='content'>
-          <Card image={Denki} name={'Denki Kaminari'}/>
-          <Card image={Eijirou} name={'Eijirou Kirishima'}/>
-          <Card image={Fumikage} name={'Fumikage Tokoyami'}/>
-          <Card image={Hanta} name={'Hanta Sero'}/>
-          <Card image={Izuku} name={'Izuku Midoriya'}/>
-          <Card image={Katsuki} name={'Katsuki Bakugo'}/>
-          <Card image={Kouji} name={'Kouji Kouda'}/>
-          <Card image={Kyouka} name={'Kyouka Jirou'}/>
-          <Card image={Mashirao} name={'Mashirao Ojiro'}/>
-          <Card image={Mezo} name={'Mezo Shoji'}/>
-          <Card image={Mina} name={'Mina Ashido'}/>
-          <Card image={Minoru} name={'Minoru Mineta'}/>
-          <Card image={Momo} name={'Momo Yaoyorozu'}/>
-          <Card image={Ochaco} name={'Ochaco Uraraka'}/>
-          <Card image={Rikido} name={'Rikido Sato'}/>
-          <Card image={Shoto} name={'Shoto Todoroki'}/>
-          <Card image={Tenya} name={'Tenya Iida'}/>
-          <Card image={Tooru} name={'Tooru Hagakure'}/>
-          <Card image={Tsuyu} name={'Tsuyu Asui'}/>
-          <Card image={Yuuga} name={'Yuuga Aoyama'}/>
+          <Card id="1" image={Denki} name={'Denki Kaminari'} onClick={this.handleCardClick}/>
+          <Card id="2" image={Eijirou} name={'Eijirou Kirishima'}/>
+          <Card id="3" image={Fumikage} name={'Fumikage Tokoyami'}/>
+          <Card id="4" image={Hanta} name={'Hanta Sero'}/>
+          <Card id="5" image={Izuku} name={'Izuku Midoriya'}/>
+          <Card id="6" image={Katsuki} name={'Katsuki Bakugo'}/>
+          <Card id="7" image={Kouji} name={'Kouji Kouda'}/>
+          <Card id="8" image={Kyouka} name={'Kyouka Jirou'}/>
+          <Card id="9" image={Mashirao} name={'Mashirao Ojiro'}/>
+          <Card id="10" image={Mezo} name={'Mezo Shoji'}/>
+          <Card id="11" image={Mina} name={'Mina Ashido'}/>
+          <Card id="12" image={Minoru} name={'Minoru Mineta'}/>
+          <Card id="13" image={Momo} name={'Momo Yaoyorozu'}/>
+          <Card id="14" image={Ochaco} name={'Ochaco Uraraka'}/>
+          <Card id="15" image={Rikido} name={'Rikido Sato'}/>
+          <Card id="16" image={Shoto} name={'Shoto Todoroki'}/>
+          <Card id="17" image={Tenya} name={'Tenya Iida'}/>
+          <Card id="18" image={Tooru} name={'Tooru Hagakure'}/>
+          <Card id="19" image={Tsuyu} name={'Tsuyu Asui'}/>
+          <Card id="20" image={Yuuga} name={'Yuuga Aoyama'}/>
         </div>
       </div>
     );
