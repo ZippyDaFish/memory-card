@@ -32,7 +32,6 @@ class App extends Component {
   handleCardClick = (e) => {
     e.preventDefault();
     console.log(e.target.id);
-    console.log(e);
   };
 
   render(){
@@ -42,24 +41,24 @@ class App extends Component {
         <div className='content'>
           <Card id={1} image={Denki} name={'Denki Kaminari'} functionTrigger={this.handleCardClick}/>
           <Card id={2} image={Eijirou} name={'Eijirou Kirishima'} functionTrigger={this.handleCardClick}/>
-          <Card id="3" image={Fumikage} name={'Fumikage Tokoyami'}/>
-          <Card id="4" image={Hanta} name={'Hanta Sero'}/>
-          <Card id="5" image={Izuku} name={'Izuku Midoriya'}/>
-          <Card id="6" image={Katsuki} name={'Katsuki Bakugo'}/>
-          <Card id="7" image={Kouji} name={'Kouji Kouda'}/>
-          <Card id="8" image={Kyouka} name={'Kyouka Jirou'}/>
-          <Card id="9" image={Mashirao} name={'Mashirao Ojiro'}/>
-          <Card id="10" image={Mezo} name={'Mezo Shoji'}/>
-          <Card id="11" image={Mina} name={'Mina Ashido'}/>
-          <Card id="12" image={Minoru} name={'Minoru Mineta'}/>
-          <Card id="13" image={Momo} name={'Momo Yaoyorozu'}/>
-          <Card id="14" image={Ochaco} name={'Ochaco Uraraka'}/>
-          <Card id="15" image={Rikido} name={'Rikido Sato'}/>
-          <Card id="16" image={Shoto} name={'Shoto Todoroki'}/>
-          <Card id="17" image={Tenya} name={'Tenya Iida'}/>
-          <Card id="18" image={Tooru} name={'Tooru Hagakure'}/>
-          <Card id="19" image={Tsuyu} name={'Tsuyu Asui'}/>
-          <Card id="20" image={Yuuga} name={'Yuuga Aoyama'}/>
+          <Card id={3} image={Fumikage} name={'Fumikage Tokoyami'} functionTrigger={this.handleCardClick}/>
+          <Card id={4} image={Hanta} name={'Hanta Sero'} functionTrigger={this.handleCardClick}/>
+          <Card id={5} image={Izuku} name={'Izuku Midoriya'} functionTrigger={this.handleCardClick}/>
+          <Card id={6} image={Katsuki} name={'Katsuki Bakugo'} functionTrigger={this.handleCardClick}/>
+          <Card id={7} image={Kouji} name={'Kouji Kouda'} functionTrigger={this.handleCardClick}/>
+          <Card id={8} image={Kyouka} name={'Kyouka Jirou'} functionTrigger={this.handleCardClick}/>
+          <Card id={9} image={Mashirao} name={'Mashirao Ojiro'} functionTrigger={this.handleCardClick}/>
+          <Card id={10} image={Mezo} name={'Mezo Shoji'} functionTrigger={this.handleCardClick}/>
+          <Card id={11} image={Mina} name={'Mina Ashido'} functionTrigger={this.handleCardClick}/>
+          <Card id={12} image={Minoru} name={'Minoru Mineta'} functionTrigger={this.handleCardClick}/>
+          <Card id={13} image={Momo} name={'Momo Yaoyorozu'} functionTrigger={this.handleCardClick}/>
+          <Card id={14} image={Ochaco} name={'Ochaco Uraraka'} functionTrigger={this.handleCardClick}/>
+          <Card id={15} image={Rikido} name={'Rikido Sato'} functionTrigger={this.handleCardClick}/>
+          <Card id={16} image={Shoto} name={'Shoto Todoroki'} functionTrigger={this.handleCardClick}/>
+          <Card id={17} image={Tenya} name={'Tenya Iida'} functionTrigger={this.handleCardClick}/>
+          <Card id={18} image={Tooru} name={'Tooru Hagakure'} functionTrigger={this.handleCardClick}/>
+          <Card id={19} image={Tsuyu} name={'Tsuyu Asui'} functionTrigger={this.handleCardClick}/>
+          <Card id={20} image={Yuuga} name={'Yuuga Aoyama'} functionTrigger={this.handleCardClick}/>
         </div>
       </div>
     );
