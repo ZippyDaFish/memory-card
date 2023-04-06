@@ -27,11 +27,23 @@ import Yuuga from './images/Yuuga_Aoyama_Portrait.png'
 class App extends Component {
   constructor(){
     super();
+
+    this.state = {
+      clickedCardIds: []
+    };
   }
 
   handleCardClick = (e) => {
     e.preventDefault();
-    console.log(e.target.id);
+    this.checkCardId(e.target.id);
+  };
+
+  checkCardId = (id) => {
+    var joinedIds = this.state.clickedCardIds.concat(id);
+    this.setState({
+      clickedCardIds: joinedIds
+    })
+    console.log(this.state.clickedCardIds);
   };
 
   render(){
