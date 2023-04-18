@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.3b201d34.css",
+    "main.js": "/memory-card/static/js/main.0e09b49e.js",
+    "static/media/Mina_Ashido_Portrait.png": "/memory-card/static/media/Mina_Ashido_Portrait.469f677b581515e74b8a.png",
+    "static/media/Yuuga_Aoyama_Portrait.png": "/memory-card/static/media/Yuuga_Aoyama_Portrait.d1d8d7266e307b24fdce.png",
+    "static/media/Denki_Kaminari_Portrait.png": "/memory-card/static/media/Denki_Kaminari_Portrait.16538abf51fa3fece5cf.png",
+    "static/media/Ochaco_Uraraka_Portrait.png": "/memory-card/static/media/Ochaco_Uraraka_Portrait.b634a8527c30086a12ec.png",
+    "static/media/Eijirou_Kirishima_Portrait.png": "/memory-card/static/media/Eijirou_Kirishima_Portrait.d57993c18858cb367458.png",
+    "static/media/Mezo_Shoji_Portrait.png": "/memory-card/static/media/Mezo_Shoji_Portrait.9a403b0f79cece12ba78.png",
+    "static/media/Shoto_Todoroki_Portrait.png": "/memory-card/static/media/Shoto_Todoroki_Portrait.f511eddf64bec12657ed.png",
+    "static/media/Tenya_Iida_Portrait.png": "/memory-card/static/media/Tenya_Iida_Portrait.24afd6feb591800cf29d.png",
+    "static/media/Katsuki_Bakugo_Portrait.png": "/memory-card/static/media/Katsuki_Bakugo_Portrait.f623d185b80792461b47.png",
+    "static/media/Momo_Yaoyorozu_Portrait.png": "/memory-card/static/media/Momo_Yaoyorozu_Portrait.34bf73fbd711c6d36d90.png",
+    "static/media/Hanta_Sero_Portrait.png": "/memory-card/static/media/Hanta_Sero_Portrait.8a17685304088014cf40.png",
+    "static/media/Izuku_Midoriya_Portrait.png": "/memory-card/static/media/Izuku_Midoriya_Portrait.0b23110101e6214ee0b1.png",
+    "static/media/Rikido_Sato_Portrait.png": "/memory-card/static/media/Rikido_Sato_Portrait.9a230a6fcd71de9e2276.png",
+    "static/media/Tsuyu_Asui_Portrait.png": "/memory-card/static/media/Tsuyu_Asui_Portrait.e9312a2dcd71dc56c1b0.png",
+    "static/media/Mashirao_Ojiro_Portrait.png": "/memory-card/static/media/Mashirao_Ojiro_Portrait.7113d8e9e9e93eadef8f.png",
+    "static/media/Kyouka_Jirou_Portrait.png": "/memory-card/static/media/Kyouka_Jirou_Portrait.93dc5d9372c90317c38d.png",
+    "static/media/Kouji_Kouda_Portrait.png": "/memory-card/static/media/Kouji_Kouda_Portrait.ca0513c72d2769032ad5.png",
+    "static/media/Minoru_Mineta_Portrait.png": "/memory-card/static/media/Minoru_Mineta_Portrait.f160db8fba6464b03976.png",
+    "static/media/Fumikage_Tokoyami_Portrait.png": "/memory-card/static/media/Fumikage_Tokoyami_Portrait.0ca6d32633bd7339e28f.png",
+    "static/media/Tooru_Hagakure_Portrait.png": "/memory-card/static/media/Tooru_Hagakure_Portrait.6466ef51f88692bc5423.png",
+    "index.html": "/memory-card/index.html",
+    "main.3b201d34.css.map": "/memory-card/static/css/main.3b201d34.css.map",
+    "main.0e09b49e.js.map": "/memory-card/static/js/main.0e09b49e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b201d34.css",
+    "static/js/main.0e09b49e.js"
+  ]
+}
